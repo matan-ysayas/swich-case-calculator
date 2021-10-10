@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+#continer{
+    align-items: center;
+    justify-content: center;
+   
+
+
+    
+}
+
+.numbers{
+    width: 50PX;
+    height: 50PX;
+    border-radius: 60%;
+    background-color:grey
+    
+    
+}
+.operator{
+    width: 50PX;
+    height: 50PX;
+    border-radius: 50%;
+    background-color: palegreen;
+}
+#Ac{
+    width: 50PX;
+    height: 50PX;
+    border-radius: 40%;
+    background-color: orange;
+    
+}
+
+#eq{
+    width: 30PX;
+    height: 30PX;
+    border-radius: 40%;
+    background-color: lightskyblue;
+  
+}
