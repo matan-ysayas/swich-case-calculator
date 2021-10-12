@@ -1,43 +1,91 @@
-main{
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-}
-#continer{
-    align-items: center;
-    justify-content: center;
-   
-
-
-    
-}
-
-.numbers{
-    width: 50PX;
-    height: 50PX;
-    border-radius: 60%;
-    background-color:grey
-    
-    
-}
-.operator{
-    width: 50PX;
-    height: 50PX;
-    border-radius: 50%;
-    background-color: palegreen;
-}
-#Ac{
-    width: 50PX;
-    height: 50PX;
-    border-radius: 40%;
-    background-color: orange;
-    
-}
-
-#eq{
-    width: 30PX;
-    height: 30PX;
-    border-radius: 40%;
-    background-color: lightskyblue;
+main {
+  display: flex;
+  justify-content: center;
   
+}
+#continer {
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#input{
+    background-color: palegoldenrod;
+    color: black;
+    height: 20px;
+}
+.numbers {
+  background-color: black;
+  color: antiquewhite;
+}
+.operator {
+    background-color:khaki;
+    color: black;
+    font-size: x-large;
+}
+#Ac {
+  background-color:orange;
+}
+
+#eq {
+  background-color: orange;
+  height: 27px
+}
+
+#firstLine {
+  width: 100%;
+  display: flex;
+}
+
+#firstLine button {
+  width: 33.3%;
+  height: 50px;
+}
+
+#secondLine {
+  width: 100%;
+  display: flex;
+}
+
+#secondLine button {
+  width: 33.3%;
+  height: 50px;
+}
+
+#thirdLine {
+  width: 100%;
+  display: flex;
+}
+#thirdLine button {
+  width: 33.3%;
+  height: 50px;
+}
+
+#fourthLine {
+  width: 100%;
+  display: flex;
+}
+
+#fourthLine button {
+  width: 33.3%;
+  height: 50px;
+}
+
+#operatorsLine {
+  width: 100%;
+  display: flex;
+}
+#operatorsLine button {
+  width: 25%;
+  height: 50px;
+}
+
+.numbers:hover{
+    background-color:orange;
+    color: black;
+}
+
+.operator:hover{
+    background-color:rgba(7, 7, 7, 0.521);
+    color: white;
 }
